@@ -112,7 +112,7 @@ h1 {
   font-size: 10px;
   color: #102457;
 }
-.card-wrapper .card .card-img img{
+.card-wrapper .card .card-img{
   float: left;
   display: block;
   border-radius: 3%;
@@ -134,7 +134,7 @@ h1 {
   .card-wrapper .card:last-child {
     margin-right: 0;
   }
-  .card-wrapper .card .card-img img {
+  .card-wrapper .card .card-img {
     width: 100%;
     position: relative;
   }
