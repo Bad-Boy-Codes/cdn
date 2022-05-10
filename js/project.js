@@ -1,0 +1,1 @@
+$(document).ready(function(){var a=10;$("div.card").click(function(s){s.preventDefault();s=!1;$(this).hasClass("show")&&(s=!0),$("div.cards").hasClass("showing")?($("div.card.show").removeClass("show"),s?$("div.cards").removeClass("showing"):$(this).css({zIndex:a}).addClass("show")):($("div.cards").addClass("showing"),$(this).css({zIndex:a}).addClass("show")),a++})});

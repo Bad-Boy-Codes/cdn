@@ -1,3 +1,4 @@
+AOS.init();
 function showParams(e) {
   e.classList.contains("hide") ?
   e.classList.remove("hide"):
